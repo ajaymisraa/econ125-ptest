@@ -260,7 +260,7 @@ export default function Home() {
         >
           group final Google Doc.  
         </a>
-         // Wrote this code in like 45 minutes but the questions are solid quality. I'll update it more Thurs AM the day of exam. I plan on adding specifically post-midterm content section.
+         // for specifically post midterm stuff, click categories then post exam applicable. or just do everything. 
       </p>
       </div>
     </div>
