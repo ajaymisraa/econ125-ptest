@@ -1011,255 +1011,496 @@
         {
             "id": 85,
             "category": "post-midterm-applicative",
-            "question": "You've validated your UVP, refined your lean canvas, developed a basic financial model, secured some non-dilutive funding, and delivered a clear pitch. What is a logical next step to ethically and sustainably scale?",
+            "question": "Your product’s NPS score is low, and customers indicate they’d be only “somewhat disappointed” if your product disappeared. Which step best helps you move toward true product-market fit?",
             "options": [
-                "Overpromise future features and ignore sourcing standards",
-                "Expand production immediately without confirming customer retention",
-                "Monitor key performance metrics, maintain customer engagement, and uphold ethical standards as you grow",
-                "Stop iterating on your product or business model"
+                "Launch a national ad campaign immediately",
+                "Conduct in-depth customer interviews to identify unmet needs and refine your solution",
+                "Increase prices to signal premium quality",
+                "Stop gathering feedback and rely on your intuition"
             ],
-            "correct": 2
+            "correct": 1
         },
         {
             "id": 86,
             "category": "post-midterm-applicative",
-            "question": "Your startup’s lean canvas highlights unclear distribution channels. What is the best next step?",
+            "question": "Your customer interviews reveal that your product is a 'nice-to-have' rather than a 'must-have.' What is the most strategic next step?",
             "options": [
-                "Launch a broad advertising campaign without targeting",
-                "Test a few distribution channels with small-scale experiments to see where customers engage",
-                "Wait for organic growth",
-                "Rely solely on word-of-mouth without validation"
+                "Ignore the feedback and push harder on marketing",
+                "Revisit your lean canvas, identify a more urgent customer pain, and pivot your solution",
+                "Cut costs by reducing product quality",
+                "Blame customers for not recognizing innovation"
             ],
             "correct": 1
         },
         {
             "id": 87,
             "category": "post-midterm-applicative",
-            "question": "You’ve identified a strong product-market fit in one niche. How can you sustainably expand?",
+            "question": "Your retention metrics show customers drop off after initial use. What actionable measure can improve retention?",
             "options": [
-                "Instantly target all global markets at once",
-                "Leverage existing customer insights and test adjacent niches before aggressive expansion",
-                "Ignore current customers and chase entirely new markets",
-                "Raise prices exponentially to capitalize on demand"
+                "Focus solely on acquiring more new users",
+                "Interview churned customers to uncover why they leave and iterate on the product accordingly",
+                "Increase complexity to appear more advanced",
+                "Reduce customer support availability"
             ],
             "correct": 1
         },
         {
             "id": 88,
             "category": "post-midterm-applicative",
-            "question": "Customers say they value your UVP, but their engagement is low. How can you address this gap?",
+            "question": "You’ve validated a pressing customer problem, but your solution isn’t resonating. According to lean startup principles, what should you do next?",
             "options": [
-                "Assume customers will adapt over time",
-                "Conduct deeper user research to uncover hidden barriers, and iterate on features or messaging",
-                "Cease all customer interactions",
-                "Double the product price to create a luxury perception"
+                "Build a fully featured product before testing again",
+                "Develop a simpler MVP and run targeted tests to see if changes increase engagement",
+                "Cease all user interviews and rely on guesswork",
+                "Raise funds without adjusting the solution"
             ],
             "correct": 1
         },
         {
             "id": 89,
             "category": "post-midterm-applicative",
-            "question": "Your financial model predicts profitability, but a mentor questions key assumptions. What should you do?",
+            "question": "You suspect confirmation bias in your research. How do you ensure you’re not just hearing what you want to hear?",
             "options": [
-                "Dismiss the mentor’s concerns",
-                "Revisit and stress-test assumptions with realistic scenarios and perhaps collect more data",
-                "Hide your assumptions from investors",
-                "Ignore financial modeling altogether"
+                "Only talk to satisfied customers",
+                "Seek out critics, test assumptions against new user segments, and let evidence guide your pivots",
+                "Ignore data that contradicts your hypothesis",
+                "Rely solely on internal team opinions"
             ],
             "correct": 1
         },
         {
             "id": 90,
             "category": "post-midterm-applicative",
-            "question": "Your pitch successfully secured a small grant. What’s a responsible way to use these non-dilutive funds early on?",
+            "question": "Your startup struggles to differentiate against a new competitor. According to Porter’s Five Forces, what’s a practical action to maintain a competitive edge?",
             "options": [
-                "Throw a launch party",
-                "Invest in validated improvements that advance towards product-market fit",
-                "Hire a large team immediately",
-                "Distribute bonuses to the founders"
+                "Reduce all prices to near zero",
+                "Enhance a unique feature customers value and create switching costs that deter substitution",
+                "Stop monitoring competitor activity",
+                "Focus solely on cutting operational expenses"
             ],
             "correct": 1
         },
         {
             "id": 91,
             "category": "post-midterm-applicative",
-            "question": "During pitch practice, observers struggle to understand your unique value proposition. What’s the most effective response?",
+            "question": "You’ve identified a target customer segment and their problem. Before fully building your product, what lean approach helps validate your assumptions?",
             "options": [
-                "Increase technical jargon",
-                "Simplify the language, incorporate a user story, and clarify the core benefit",
-                "Speak faster to cover more details",
-                "Provide only raw data without explanation"
+                "Drafting a static 50-page business plan",
+                "Running small MVP tests and conducting user interviews to validate the problem-solution fit",
+                "Scaling worldwide without feedback",
+                "Spending all your capital on advertising"
             ],
             "correct": 1
         },
         {
             "id": 92,
             "category": "post-midterm-applicative",
-            "question": "You notice that your CAC is higher than anticipated due to a particular marketing channel. How should you respond?",
+            "question": "Your cost structure is unclear, making it hard to forecast profitability. How can you improve your financial model?",
             "options": [
-                "Continue with the same channel regardless of cost",
-                "Test alternative channels, A/B test campaigns, and negotiate better deals",
-                "Stop all marketing efforts altogether",
-                "Blame customers for not converting"
+                "Ignore detailed cost assumptions until after launch",
+                "Estimate fixed and variable costs realistically, incorporate them into bottom-up revenue projections, and re-check feasibility",
+                "Use random guesses for unit economics",
+                "Focus only on top-down market estimates"
             ],
             "correct": 1
         },
         {
             "id": 93,
             "category": "post-midterm-applicative",
-            "question": "Your startup’s strategy relies heavily on a single supplier with no backup. How might you improve your risk management?",
+            "question": "You’re bootstrapping with limited funds. How can you extend your runway and still validate your product idea?",
             "options": [
-                "Ignore the risk until a crisis occurs",
-                "Identify and establish relationships with alternative suppliers to ensure continuity",
-                "Pass the risk onto customers through higher prices",
-                "Reduce product quality to depend less on the supplier"
+                "Spend aggressively on multiple marketing channels upfront",
+                "Run lean experiments, prioritize essential features, and iterate quickly based on key metrics",
+                "Refuse to track any metrics",
+                "Hire a large team immediately"
             ],
             "correct": 1
         },
         {
             "id": 94,
             "category": "post-midterm-applicative",
-            "question": "You’ve tested your lean canvas assumptions with early adopters. How can you best leverage these insights?",
+            "question": "An investor questions the size of your addressable market. How can you convincingly demonstrate its potential?",
             "options": [
-                "Refine your product, messaging, and roadmap based on user feedback",
-                "Ignore the feedback and continue as planned",
-                "Raise your prices without changing anything",
-                "Stop collecting further customer data"
+                "Provide no data and insist it's huge",
+                "Combine a top-down estimate of market size with bottom-up evidence (early user tests, pilot sales) to show realistic growth potential",
+                "Ignore their concerns and shift topics",
+                "Focus on product features only"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "id": 95,
             "category": "post-midterm-applicative",
-            "question": "As you prepare for a live pitch, what is a practical way to ensure you’re ready to handle tough questions?",
+            "question": "Your user acquisition costs are high, and retention is low. What should you do before scaling user acquisition?",
             "options": [
-                "Memorize only your positive metrics and ignore weak areas",
-                "Conduct mock Q&A sessions with mentors and peers, and practice addressing concerns honestly",
-                "Refuse to take questions at the end of your pitch",
-                "Deny any weaknesses or market uncertainties"
+                "Keep spending on the same channel without changes",
+                "Identify and fix the product’s core issues through customer feedback and iterative improvements",
+                "Blame the market and do nothing",
+                "Stop collecting any data"
             ],
             "correct": 1
         },
         {
             "id": 96,
             "category": "post-midterm-applicative",
-            "question": "Your early tests show that customers love your product when they try it, but awareness is low. What’s an effective next step?",
+            "question": "You plan to raise funds in 6-12 months. How can you build relationships with potential investors now to improve your chances later?",
             "options": [
-                "Do nothing and hope customers find you",
-                "Targeted marketing experiments or referral incentives to boost awareness",
-                "Shut down the product entirely",
-                "Double the product price with no marketing"
+                "Wait until the night before you need funding",
+                "Seek advice on challenges, provide progress updates, and nurture trust over time",
+                "Only contact them when desperate",
+                "Hide all information until you pitch"
             ],
             "correct": 1
         },
         {
             "id": 97,
             "category": "post-midterm-applicative",
-            "question": "Investors want to see the path to profitability. Which approach strengthens their confidence?",
+            "question": "Your pitch deck confuses audiences with overly technical details. What’s the best way to refine it?",
             "options": [
-                "Show inflated revenue forecasts without evidence",
-                "Demonstrate tested assumptions, a realistic financial model, and evidence of improving key metrics (like CAC/LTV)",
-                "Blame the market for slow growth",
-                "Provide no financial details, only product demos"
+                "Add even more technical jargon",
+                "Simplify the message, highlight the problem, solution, traction, and market potential in clear terms",
+                "Remove all references to customer needs",
+                "Focus solely on your technology’s complexity"
             ],
             "correct": 1
         },
         {
             "id": 98,
             "category": "post-midterm-applicative",
-            "question": "Your team has developed multiple prototypes but is unsure which resonates most with users. What’s the next step?",
+            "question": "You have an unfair advantage in distribution that competitors can’t easily replicate. How do you leverage this in your strategy?",
             "options": [
-                "Pick the one you personally prefer",
-                "Run usability tests and gather direct user feedback to determine which prototype addresses their needs best",
-                "Launch all prototypes at once in the market",
-                "Wait for users to reach out first"
+                "Ignore it and compete on price",
+                "Emphasize it in your value proposition, showing investors and customers how it ensures long-term differentiation",
+                "Hide it so competitors aren’t offended",
+                "Eliminate the advantage to appear humble"
             ],
             "correct": 1
         },
         {
             "id": 99,
             "category": "post-midterm-applicative",
-            "question": "A mentor suggests a strategic pivot after reviewing your lean canvas. How should you respond?",
+            "question": "Your MVP passes basic feasibility tests, but you’re unsure about pricing. How should you refine your pricing strategy?",
             "options": [
-                "Refuse to consider any changes",
-                "Evaluate the suggestion with customer data, test the pivot’s assumptions, and move if it aligns better with market feedback",
-                "Implement it blindly without validation",
-                "Fire the mentor"
+                "Set prices arbitrarily high and hope for the best",
+                "Experiment with different price points on small user segments and adjust based on feedback and conversion rates",
+                "Ignore feedback on pricing",
+                "Only use competitor pricing without considering your unique value"
             ],
             "correct": 1
         },
         {
             "id": 100,
             "category": "post-midterm-applicative",
-            "question": "Your financial model shows a steady burn rate. How can you proactively ensure enough runway?",
+            "question": "Your retention rate is low. What’s a practical first step to understand why users leave?",
             "options": [
-                "Assume future revenue will appear out of nowhere",
-                "Explore efficiency improvements, non-dilutive funding sources, and strategic partnerships to reduce costs or increase revenue",
-                "Take no action until funds are nearly depleted",
-                "Stop paying employees immediately"
+                "Blame seasonal trends without data",
+                "Interview churned users, analyze their usage patterns, and pinpoint where their expectations weren’t met",
+                "Cut off customer support to save money",
+                "Rely on guessing their motivations"
             ],
             "correct": 1
         },
         {
             "id": 101,
             "category": "post-midterm-applicative",
-            "question": "You discover that early adopter feedback conflicts with assumptions you made on your lean canvas. What’s the right approach?",
+            "question": "An investor worries about substitutes in your market. How can you reassure them?",
             "options": [
-                "Stick to your original assumptions despite evidence",
-                "Update the lean canvas, refine your assumptions, and consider new experiments to validate the revised direction",
-                "Abandon the project entirely",
-                "Ignore user feedback"
+                "Pretend substitutes don’t exist",
+                "Show how your unique features, customer experience, or switching costs create a defensible position against substitutes",
+                "Focus solely on your product’s aesthetics",
+                "Insist that customers will never consider alternatives"
             ],
             "correct": 1
         },
         {
             "id": 102,
             "category": "post-midterm-applicative",
-            "question": "You’ve identified a unique value proposition, but investors question its defensibility. How do you proceed?",
+            "question": "You realize you haven’t identified key metrics on your Lean Canvas. Which approach helps you track meaningful progress?",
             "options": [
-                "Insist that your UVP is obvious",
-                "Clarify your unfair advantage (e.g., patented tech, exclusive data) and show how it prevents easy imitation",
-                "Refuse to share any details",
-                "Drop the UVP and rely on price alone"
+                "Ignore metrics and trust instincts",
+                "Pick critical metrics (e.g., active users, conversion, retention) that reflect engagement and repeatedly measure them",
+                "Track every possible metric without focus",
+                "Only measure vanity metrics like social media likes"
             ],
             "correct": 1
         },
         {
             "id": 103,
             "category": "post-midterm-applicative",
-            "question": "Your initial pitch deck is lengthy and complex. What improves its impact?",
+            "question": "Your runway is short, and you need to validate your assumptions quickly. What’s the best strategy?",
             "options": [
-                "Add more slides and technical details",
-                "Streamline content, focus on the core problem, solution, traction, and market opportunity, and use visuals to clarify key points",
-                "Use only text with no visuals",
-                "Provide no context, just bullet points"
+                "Spend heavily on brand marketing and hope it works out",
+                "Run rapid MVP tests, focus on essential features, and adjust immediately based on user feedback",
+                "Hire more staff to look bigger",
+                "Wait until funds are almost gone before making changes"
             ],
             "correct": 1
         },
         {
             "id": 104,
             "category": "post-midterm-applicative",
-            "question": "While validating your solution, you find that customers appreciate your product but are not willing to pay. What should you explore?",
+            "question": "You need a strong opening hook for your pitch. Which tactic aligns with best practices?",
             "options": [
-                "Increase the price further",
-                "Investigate why they won’t pay—test alternate pricing models, clarify the UVP, or explore different customer segments",
-                "Immediately give up on the product",
-                "Pretend that revenue doesn’t matter"
+                "Start with technical details about algorithms",
+                "Open with a brief, relatable story showing a real customer problem and how your product solves it",
+                "Launch into a line-by-line financial spreadsheet review",
+                "Read your entire Lean Canvas aloud"
             ],
             "correct": 1
         },
         {
             "id": 105,
             "category": "post-midterm-applicative",
-            "question": "You’re nearing product-market fit, but your supply chain can’t scale ethically. How can you address this?",
+            "question": "Your team debates completing a full business plan vs. using a Lean Canvas. What should guide your choice?",
             "options": [
-                "Scale anyway and ignore ethical issues",
-                "Prioritize finding scalable, ethical supply solutions and communicate transparently with stakeholders",
-                "Hide the supply chain details from customers",
-                "Blame suppliers and refuse to change"
+                "A 50-page static plan that never updates",
+                "A Lean Canvas approach that’s quick to adjust and helps you test and iterate based on actual user feedback",
+                "Guessing without any framework",
+                "Relying solely on investor opinions"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 106,
+            "category": "post-midterm-applicative",
+            "question": "You’ve validated a real problem but customers don’t know you exist. What’s the most efficient way to reach them?",
+            "options": [
+                "Wait for organic growth with no outreach",
+                "Run targeted experiments with chosen distribution channels from your Lean Canvas and measure response",
+                "Invest all capital into a single mass-market TV ad",
+                "Eliminate any marketing efforts"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 107,
+            "category": "post-midterm-applicative",
+            "question": "You’ve achieved product-market fit in a small niche. How should you scale ethically and sustainably?",
+            "options": [
+                "Rapidly expand into all markets without analyzing user feedback",
+                "Maintain customer satisfaction, ensure ethical supply chains, and strategically broaden your audience based on proven traction",
+                "Stop collecting feedback after initial success",
+                "Focus solely on cost-cutting"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 108,
+            "category": "post-midterm-applicative",
+            "question": "You discover an unethical labor practice in your supply chain. How do you handle this while scaling?",
+            "options": [
+                "Hide it from customers and investors",
+                "Be transparent, seek ethical suppliers, and communicate steps taken to uphold values",
+                "Blame the market for driving down prices",
+                "Continue as is, hoping it won’t be discovered"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 109,
+            "category": "post-midterm-applicative",
+            "question": "You’re refining your strategy. According to Porter’s Five Forces, why is it important to understand potential substitutes?",
+            "options": [
+                "Because substitutes never affect demand",
+                "Substitutes provide insight into how easily customers can switch to another solution, guiding how you differentiate your offering",
+                "They are irrelevant once you have funding",
+                "Substitutes only matter if they are more expensive"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 110,
+            "category": "post-midterm-applicative",
+            "question": "Your Lean Canvas shows a strong UVP, but you haven’t tested it with actual users. How do you validate it?",
+            "options": [
+                "Assume it’s perfect and build a full product",
+                "Conduct problem and solution interviews, compare to competitors, and gather early user feedback on prototypes",
+                "Focus only on financial modeling first",
+                "Wait until a large-scale launch before talking to users"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 111,
+            "category": "post-midterm-applicative",
+            "question": "You’re trying to secure grants for initial funding rather than VC money. How does non-dilutive funding help?",
+            "options": [
+                "It always provides huge amounts of capital quickly",
+                "It allows you to maintain full ownership and freedom to iterate without investor pressure",
+                "It replaces all need for revenue",
+                "It forces you to give up equity to donors"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 112,
+            "category": "post-midterm-applicative",
+            "question": "Your top-down market projection looks promising, but an investor wants more tangible proof. What’s your next move?",
+            "options": [
+                "Ignore their request and insist on market size",
+                "Show early pilot sales, sign-ups, or pre-orders as bottom-up evidence to support top-down estimates",
+                "Make up numbers without testing",
+                "Focus on personal opinions rather than data"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 113,
+            "category": "post-midterm-applicative",
+            "question": "You have a high churn rate despite initial interest. How can you align better with customer expectations?",
+            "options": [
+                "Stop talking to users after initial contact",
+                "Conduct exit surveys, analyze usage patterns, and revise features to better fulfill user needs",
+                "Rely on guesswork for product improvements",
+                "Increase marketing to acquire even more churn-prone users"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 114,
+            "category": "post-midterm-applicative",
+            "question": "Your pitch practice reveals that investors don’t grasp your core value proposition quickly. What’s an effective fix?",
+            "options": [
+                "Add more technical slides",
+                "Craft a concise, customer-focused UVP statement and illustrate it with a simple user story",
+                "Skip explaining the UVP entirely",
+                "Discuss only revenue projections"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 115,
+            "category": "post-midterm-applicative",
+            "question": "You’re reviewing your cost structure and realize employees are a major expense. What’s a lean approach to staffing early on?",
+            "options": [
+                "Hire as many full-time staff as possible",
+                "Utilize contractors, part-timers, or outsource certain tasks while validating your idea",
+                "Spend your entire budget on a large team",
+                "Ignore staffing needs until after scaling"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 116,
+            "category": "post-midterm-applicative",
+            "question": "You’ve chosen a channel strategy, but results are mixed. What lean approach ensures you invest in the right channels?",
+            "options": [
+                "Commit fully to one channel without testing alternatives",
+                "A/B test multiple channels on a small scale, measure conversion and retention, then invest more in the best performers",
+                "Abandon all channel experimentation",
+                "Rely on personal preference instead of data"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 117,
+            "category": "post-midterm-applicative",
+            "question": "Your early adopters love your product, but you haven’t confirmed if there’s a big enough market. How do you proceed?",
+            "options": [
+                "Assume everyone will love it equally",
+                "Conduct broader tests with additional segments, analyze adoption rates, and refine your positioning",
+                "Stop collecting any market data",
+                "Raise prices drastically and see what happens"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 118,
+            "category": "post-midterm-applicative",
+            "question": "When refining your lean canvas, what’s a key benefit of continuously revisiting it as new data emerges?",
+            "options": [
+                "It wastes time that could be spent building",
+                "It allows you to pivot quickly, adjust assumptions, and focus on the elements that drive sustainable growth",
+                "It prevents strategic changes",
+                "It forces a static approach"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 119,
+            "category": "post-midterm-applicative",
+            "question": "You’ve secured a small non-dilutive grant. What’s a responsible early use of these funds?",
+            "options": [
+                "Throw a large launch party",
+                "Invest in critical MVP testing and refining your product-market fit metrics",
+                "Hire a large sales team immediately",
+                "Ignore product validation and expand prematurely"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 120,
+            "category": "post-midterm-applicative",
+            "question": "You find that your key revenue assumption might be unrealistic. How should you address it?",
+            "options": [
+                "Ignore the assumption and finalize your model",
+                "Revisit customer willingness-to-pay data, run pilot sales or pricing tests, and adjust projections accordingly",
+                "Inflate numbers to please investors",
+                "Rely on gut feeling only"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 121,
+            "category": "post-midterm-applicative",
+            "question": "Your final pitch is tomorrow. What’s a best practice for handling difficult investor questions?",
+            "options": [
+                "Deny all weaknesses",
+                "Prepare honest, data-backed responses and if you don’t know, acknowledge it and outline how you’ll find the answer",
+                "Attack the credibility of the questioner",
+                "Distract by changing the topic"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 122,
+            "category": "post-midterm-applicative",
+            "question": "You’re working on a strategic identity to set you apart. According to the Forbes article on operational effectiveness vs. strategy, what’s essential?",
+            "options": [
+                "Just benchmark against competitors",
+                "Focus on unique activities and positioning that competitors can’t easily mimic",
+                "Match every competitor’s feature",
+                "Rely solely on operational cost-cutting"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 123,
+            "category": "post-midterm-applicative",
+            "question": "Your lean canvas shows multiple customer segments. How do you decide which one to focus on first?",
+            "options": [
+                "Target all segments equally",
+                "Select the segment with the most urgent need, simplest access, and highest likelihood of early adoption",
+                "Choose randomly",
+                "Rely on whichever segment looks most profitable without testing"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 124,
+            "category": "post-midterm-applicative",
+            "question": "You’ve discovered that your solution doesn’t fully meet user needs. According to lean principles, what’s your next step?",
+            "options": [
+                "Double down without changes",
+                "Iterate on the solution and retest with users to see if it better addresses their pain points",
+                "Stop user testing entirely",
+                "Move to large-scale manufacturing immediately"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 125,
+            "category": "post-midterm-applicative",
+            "question": "Your product seems viable, but you’re struggling to persuade investors. Which pitch improvement aligns best with advice on hooks and storytelling?",
+            "options": [
+                "Start with a dense slide of industry statistics",
+                "Begin with a user’s story that highlights the painful problem and how your product uniquely solves it",
+                "Show your cap table first",
+                "Ignore the audience’s context and jump into financial details"
             ],
             "correct": 1
         }
+   
     ],
     "categories": [
         {
