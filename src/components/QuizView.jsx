@@ -1,16 +1,39 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, ArrowLeft, CheckCircle, XCircle } from "lucide-react";
 import { ResultsSummary } from './ResultsSummary';
 
 export function QuizView({ questions, onExit }) {
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [answers, setAnswers] = useState(new Array(questions.length).fill(null));
+  const [answers, setAnswers] = useState([]);
   const [answered, setAnswered] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showResults, setShowResults] = useState(false);
+
+  useEffect(() => {
+    // Shuffle each question's options and update the correct index accordingly
+    const shuffled = questions.map(q => {
+      const { options, correct } = q;
+      // Create an array of indices to shuffle
+      const indices = options.map((_, i) => i);
+      for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+      }
+      const newOptions = indices.map(i => options[i]);
+      const newCorrect = indices.indexOf(correct);
+      return {
+        ...q,
+        options: newOptions,
+        correct: newCorrect
+      };
+    });
+    setShuffledQuestions(shuffled);
+    setAnswers(new Array(questions.length).fill(null));
+  }, [questions]);
 
   const handleAnswer = (index) => {
     if (answered) return;
@@ -24,7 +47,7 @@ export function QuizView({ questions, onExit }) {
   };
 
   const nextQuestion = () => {
-    if (currentQuestion === questions.length - 1) {
+    if (currentQuestion === shuffledQuestions.length - 1) {
       setShowResults(true);
     } else {
       setCurrentQuestion(currentQuestion + 1);
@@ -36,7 +59,7 @@ export function QuizView({ questions, onExit }) {
   if (showResults) {
     return (
       <ResultsSummary 
-        questions={questions} 
+        questions={shuffledQuestions} 
         answers={answers}
         onRetakeIncorrect={(incorrectQuestions) => {
           setCurrentQuestion(0);
@@ -49,6 +72,14 @@ export function QuizView({ questions, onExit }) {
       />
     );
   }
+
+  // If questions haven't been shuffled yet, don't render
+  if (shuffledQuestions.length === 0) {
+    return null;
+  }
+
+  const currentQ = shuffledQuestions[currentQuestion];
+  const score = answers.filter((ans, idx) => ans === shuffledQuestions[idx].correct).length;
 
   return (
     <div className="min-h-screen bg-white flex flex-col p-4">
@@ -64,31 +95,31 @@ export function QuizView({ questions, onExit }) {
         <Card>
           <CardHeader>
             <div className="flex justify-between items-center mb-4">
-              <CardTitle>Question {currentQuestion + 1} of {questions.length}</CardTitle>
+              <CardTitle>Question {currentQuestion + 1} of {shuffledQuestions.length}</CardTitle>
               <div className="text-sm text-gray-500">
-                Score: {answers.filter((ans, idx) => ans === questions[idx].correct).length}
+                Score: {score}
               </div>
             </div>
             <div className="w-full bg-gray-100 rounded-full h-2">
               <div 
                 className="bg-black h-2 rounded-full transition-all duration-300"
-                style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
+                style={{ width: `${((currentQuestion + 1) / shuffledQuestions.length) * 100}%` }}
               />
             </div>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="text-lg font-medium mb-4">
-              {questions[currentQuestion].question}
+              {currentQ.question}
             </div>
             <div className="space-y-2">
-              {questions[currentQuestion].options.map((option, index) => (
+              {currentQ.options.map((option, index) => (
                 <button
                   key={index}
                   onClick={() => handleAnswer(index)}
                   disabled={answered}
                   className={`w-full text-left p-4 rounded-lg transition-all ${
                     answered
-                      ? index === questions[currentQuestion].correct
+                      ? index === currentQ.correct
                         ? 'bg-green-50 border-green-500'
                         : index === selectedAnswer
                         ? 'bg-red-50 border-red-500'
@@ -96,7 +127,7 @@ export function QuizView({ questions, onExit }) {
                       : 'bg-gray-50 hover:bg-gray-100'
                   } border ${
                     answered && (
-                      index === questions[currentQuestion].correct
+                      index === currentQ.correct
                         ? 'border-green-500'
                         : index === selectedAnswer
                         ? 'border-red-500'
@@ -107,9 +138,9 @@ export function QuizView({ questions, onExit }) {
                   <div className="flex items-center justify-between">
                     <span>{option}</span>
                     {answered && (
-                      index === questions[currentQuestion].correct ? (
+                      index === currentQ.correct ? (
                         <CheckCircle className="w-5 h-5 text-green-500" />
-                      ) : index === selectedAnswer && index !== questions[currentQuestion].correct ? (
+                      ) : index === selectedAnswer && index !== currentQ.correct ? (
                         <XCircle className="w-5 h-5 text-red-500" />
                       ) : null
                     )}
@@ -123,7 +154,7 @@ export function QuizView({ questions, onExit }) {
                 className="w-full mt-4 py-4 px-6 bg-black text-white rounded-lg font-medium
                          hover:bg-gray-900 transition-all flex items-center justify-center gap-2"
               >
-                {currentQuestion === questions.length - 1 ? 'View Results' : 'Next Question'}
+                {currentQuestion === shuffledQuestions.length - 1 ? 'View Results' : 'Next Question'}
                 <ArrowRight className="w-4 h-4" />
               </button>
             )}
