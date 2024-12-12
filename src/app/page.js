@@ -3,9 +3,102 @@
 import React, { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Slider } from "@/components/ui/slider";
-import { Brain, BookOpen, Target, ArrowRight, Loader2, CheckCircle } from "lucide-react";
+import { Brain, BookOpen, Target, ArrowRight, Loader2, CheckCircle, ChevronDown, ChevronRight } from "lucide-react";
 import { QuizView } from '@/components/QuizView';
 import { Analytics } from '@vercel/analytics/next';
+
+const AllQuestionsView = ({ questions, categories, onExit }) => {
+  const [expandedCategories, setExpandedCategories] = useState(new Set());
+
+  const toggleCategory = (categoryId) => {
+    setExpandedCategories(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(categoryId)) {
+        newSet.delete(categoryId);
+      } else {
+        newSet.add(categoryId);
+      }
+      return newSet;
+    });
+  };
+
+  const questionsByCategory = categories.map(category => ({
+    ...category,
+    questions: questions.filter(q => q.category === category.id)
+  }));
+
+  return (
+    <div className="min-h-screen bg-white p-4">
+      <div className="max-w-4xl mx-auto space-y-6">
+        <div className="flex items-center justify-between">
+          <h1 className="text-3xl font-bold">All Questions</h1>
+          <button
+            onClick={onExit}
+            className="px-4 py-2 text-sm bg-black text-white rounded-lg hover:bg-gray-900 transition-colors"
+          >
+            Back to Quiz
+          </button>
+        </div>
+
+        <div className="space-y-4">
+          {questionsByCategory.map((category) => (
+            <Card key={category.id} className="overflow-hidden">
+              <button
+                onClick={() => toggleCategory(category.id)}
+                className="w-full"
+              >
+                <CardHeader className="cursor-pointer hover:bg-gray-50 transition-colors">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <BookOpen className="w-5 h-5 text-gray-500" />
+                      <div className="text-left">
+                        <CardTitle>{category.name}</CardTitle>
+                        <CardDescription>
+                          {category.questions.length} questions
+                        </CardDescription>
+                      </div>
+                    </div>
+                    {expandedCategories.has(category.id) ? (
+                      <ChevronDown className="w-5 h-5 text-gray-500" />
+                    ) : (
+                      <ChevronRight className="w-5 h-5 text-gray-500" />
+                    )}
+                  </div>
+                </CardHeader>
+              </button>
+              
+              {expandedCategories.has(category.id) && (
+                <CardContent className="bg-gray-50">
+                  <div className="space-y-4 py-4">
+                    {category.questions.map((question, idx) => (
+                      <div key={idx} className="bg-white rounded-lg p-4 shadow-sm">
+                        <div className="font-medium mb-2">{question.question}</div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
+                          {question.options.map((option, optIdx) => (
+                            <div
+                              key={optIdx}
+                              className={`p-3 rounded-lg ${
+                                option === question.correct_answer
+                                  ? 'bg-green-50 border border-green-200'
+                                  : 'bg-gray-50 border border-gray-200'
+                              }`}
+                            >
+                              {option}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              )}
+            </Card>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default function Home() {
   const [questionCount, setQuestionCount] = useState([25]);
@@ -17,6 +110,7 @@ export default function Home() {
   const [error, setError] = useState(null);
   const [selectedQuestions, setSelectedQuestions] = useState([]);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [viewingAllQuestions, setViewingAllQuestions] = useState(false);
 
   useEffect(() => {
     const fetchQuestions = async () => {
@@ -39,7 +133,6 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    // Reset selected categories when mode changes
     if (quizMode !== 'category') {
       setSelectedCategories(new Set());
     }
@@ -69,7 +162,6 @@ export default function Home() {
     if (quizMode === 'all') {
       selectedQs = getRandomQuestions(availableQuestions, count);
     } else {
-      // Filter questions by selected categories
       const filteredQuestions = availableQuestions.filter(q => 
         selectedCategories.has(q.category)
       );
@@ -80,7 +172,31 @@ export default function Home() {
     setQuizStarted(true);
   };
 
-  // Your existing loading and error handlers...
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader2 className="w-8 h-8 animate-spin" />
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-red-500">Error: {error}</div>
+      </div>
+    );
+  }
+
+  if (viewingAllQuestions) {
+    return (
+      <AllQuestionsView 
+        questions={availableQuestions}
+        categories={categories}
+        onExit={() => setViewingAllQuestions(false)}
+      />
+    );
+  }
 
   if (quizStarted && selectedQuestions.length > 0) {
     return (
@@ -102,7 +218,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
-      {/* Header Section */}
       <div className="w-full max-w-2xl mb-12 text-center space-y-3">
         <h1 className="text-4xl font-bold text-black">
           ECON125 Final Prep
@@ -112,10 +227,9 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Main Content */}
       <div className="w-full max-w-2xl space-y-6">
         <Analytics />
-        {/* Mode Selection */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card 
             className={`group cursor-pointer transition-all hover:shadow-lg ${
@@ -166,7 +280,6 @@ export default function Home() {
           </Card>
         </div>
 
-        {/* Category Selection */}
         {quizMode === 'category' && (
           <Card>
             <CardHeader>
@@ -207,7 +320,6 @@ export default function Home() {
           </Card>
         )}
 
-        {/* Question Count */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -236,7 +348,15 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        {/* Start Button */}
+        <button
+          onClick={() => setViewingAllQuestions(true)}
+          className="w-full py-4 px-6 bg-white text-black border-2 border-black rounded-lg font-medium
+                   hover:bg-gray-50 transition-all flex items-center justify-center gap-2"
+        >
+          View All Questions
+          <BookOpen className="w-4 h-4" />
+        </button>
+
         <button
           disabled={!quizMode || (quizMode === 'category' && selectedCategories.size === 0)}
           onClick={handleStart}
@@ -249,19 +369,18 @@ export default function Home() {
           <ArrowRight className="w-4 h-4" />
         </button>
 
-        {/* Footer Info */}
-      <p className="text-center text-sm text-gray-500">
-        Questions are based off of{" "}
-        <a 
-          href="https://docs.google.com/document/d/1vKhWn6xpbkvRcThuIuH80IZbZHDTtcAz_M92wLLxolQ/edit?tab=t.0"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-600 underline transition-colors"
-        >
-          group final Google Doc.  
-        </a>
-         // for specifically post midterm stuff, click categories then post exam applicable. or just do everything. made by ajay misra of group 8
-      </p>
+        <p className="text-center text-sm text-gray-500">
+          Questions are based off of{" "}
+          <a 
+            href="https://docs.google.com/document/d/1vKhWn6xpbkvRcThuIuH80IZbZHDTtcAz_M92wLLxolQ/edit?tab=t.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:text-blue-600 underline transition-colors"
+          >
+            group final Google Doc. 
+          </a>
+          // for specifically post midterm stuff, click categories then post exam applicable. or just do everything. made by ajay misra of group 8
+        </p>
       </div>
     </div>
   );
