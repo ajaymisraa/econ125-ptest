@@ -1499,10 +1499,394 @@
                 "Ignore the audience’s context and jump into financial details"
             ],
             "correct": 1
+        },
+        {
+            "id": 126,
+            "category": "vs22",
+            "question": "According to Neil Patel's '13 Tips on How to Deliver a Pitch' article, what is the ideal time limit for a pitch?",
+            "options": [
+                "30 minutes",
+                "10 minutes",
+                "1 hour",
+                "5 minutes"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 127,
+            "category": "vs22",
+            "question": "In 'Pitch Hook Ideas That Will Get Your Audience's Attention', what is described as the key reason for using rhetorical questions in a pitch?",
+            "options": [
+                "To show expertise",
+                "To evoke thought and interaction",
+                "To fill time",
+                "To confuse competitors"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 128,
+            "category": "vs22",
+            "question": "According to Neil Patel's article, what should you do if you say you'll take 'only X minutes' to pitch?",
+            "options": [
+                "Take exactly that amount of time",
+                "Take at least one minute less",
+                "Take a few minutes more to be thorough",
+                "Ignore time constraints entirely"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 129,
+            "category": "vs22",
+            "question": "In 'Pitch Hook Ideas', what is identified as the typical timeframe after which audiences are often lost during a presentation?",
+            "options": [
+                "2 minutes",
+                "5 minutes",
+                "15 minutes",
+                "30 minutes"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 130,
+            "category": "vs22",
+            "question": "According to Neil Patel's article, what is the rule of thumb for investors regarding successful investments?",
+            "options": [
+                "For every 10 investments, 1 will succeed",
+                "For every 100 investments, 10 will go big",
+                "For every 50 investments, 25 will succeed",
+                "For every 1000 investments, 100 will go big"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 131,
+            "category": "vs21",
+            "question": "According to 'Startups Need Relationships Before They Ask for Money', how long does the average outside equity financing round take from roadshow to receiving funds?",
+            "options": [
+                "3 months",
+                "6 months", 
+                "9 months",
+                "12 months"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 132,
+            "category": "vs21",
+            "question": "In 'Startup Funding is Slowing Down: Adapting to This New Frontier', what is identified as the key strategic adaptation for startups in the current funding environment?",
+            "options": [
+                "Increasing marketing budgets",
+                "Focusing on rapid expansion",
+                "Leveraging AI and no-code tools for rapid validation",
+                "Hiring more employees"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 133,
+            "category": "vs21",
+            "question": "According to 'Why Every Startup Should Bootstrap', what is cited as a counterintuitive advantage of bootstrapping?",
+            "options": [
+                "Quick access to capital",
+                "Attracting the right talent",
+                "Immediate profitability",
+                "Rapid market expansion"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 134,
+            "category": "vs21",
+            "question": "In 'Startups Need Relationships Before They Ask for Money', what is recommended as the best approach when meeting potential investors?",
+            "options": [
+                "Directly asking for funding",
+                "Showing complete business plans",
+                "Asking for advice rather than money",
+                "Presenting financial projections"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 135,
+            "category": "vs21",
+            "question": "According to 'Why Every Startup Should Bootstrap', what was the author's experience at his first trade show that demonstrates the value of resourcefulness?",
+            "options": [
+                "Hiring professional marketers",
+                "Using Vitamin Waters as an incentive for demos",
+                "Creating expensive displays",
+                "Bringing a large sales team"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 136,
+            "category": "vs21",
+            "question": "Based on 'Startup Funding is Slowing Down', what shift in the startup ecosystem occurred during the pandemic era?",
+            "options": [
+                "Decrease in digital transformation",
+                "Reduction in all types of funding",
+                "Acceleration of digital transformation and increased tech startup investment",
+                "Complete halt of venture capital"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 137,
+            "category": "vs21",
+            "question": "According to 'Startups Need Relationships Before They Ask for Money', how long before actively fundraising should entrepreneurs start building investor relationships?",
+            "options": [
+                "3 months",
+                "6 months",
+                "12 months",
+                "24 months"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 138,
+            "category": "vs21",
+            "question": "In 'Why Every Startup Should Bootstrap', what example does the author use to demonstrate how bootstrapping attracts committed talent?",
+            "options": [
+                "People accepting high salaries",
+                "People working for $8,000/year in a basement believing in the vision",
+                "People with extensive experience",
+                "People seeking immediate profits"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 139,
+            "category": "vs20",
+            "question": "According to 'Could Your Startup Idea Make Money?', what is identified as the most important question entrepreneurs need to answer before focusing on tactical issues?",
+            "options": [
+                "What tech stack to use",
+                "What makes you believe this business could eventually make money",
+                "How to raise angel funding",
+                "What type of corporation to form"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 140,
+            "category": "vs20",
+            "question": "In the article's YDAT example, what is the key component of calculating lifetime revenue per customer?",
+            "options": [
+                "Monthly subscription fee only",
+                "Monthly fee multiplied by average customer lifetime", 
+                "Total market size",
+                "Cost of customer acquisition"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 141,
+            "category": "vs20",
+            "question": "According to the article, why should fixed costs be considered secondary to unit economics when first evaluating a business idea?",
+            "options": [
+                "Fixed costs are not important",
+                "Fixed costs are too difficult to calculate",
+                "If unit economics fail to generate profit, fixed costs become irrelevant",
+                "Fixed costs only matter for large companies"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 142,
+            "category": "vs20", 
+            "question": "What does the article identify as the three key components needed to estimate revenue in a back-of-the-envelope calculation?",
+            "options": [
+                "Market size, competition, and costs",
+                "Price charged, number of customers, and frequency of payment",
+                "Fixed costs, variable costs, and overhead",
+                "Funding needs, marketing costs, and sales projections"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 143,
+            "category": "vs20",
+            "question": "In the article's example of YDAT's unit economics analysis, what is the calculated unit profit per customer?",
+            "options": [
+                "$10.00",
+                "$5.60",
+                "$4.40",
+                "$0.60"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 144,
+            "category": "vs18",
+            "question": "In 'Lean Canvas – a Tool Your Startup Needs Instead of a Business Plan', what is identified as a key advantage of using Lean Canvas over traditional business plans?",
+            "options": [
+                "It takes more time to complete",
+                "It provides more detail about financials",
+                "It is a time-effective tool that doesn't require extensive time to fill in",
+                "It requires more team input"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 145,
+            "category": "vs18",
+            "question": "According to 'Lean Canvas – a Tool Your Startup Needs Instead of a Business Plan', what is the primary reason traditional business plans are considered ineffective?",
+            "options": [
+                "They are too short",
+                "They are packed with information irrelevant to grasp business intricacies",
+                "They take too long to write",
+                "They require too many team members"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 146,
+            "category": "vs18",
+            "question": "In 'Lean Canvas – a Tool Your Startup Needs Instead of a Business Plan', what is described as the most crucial first step in completing the canvas?",
+            "options": [
+                "Determining revenue streams",
+                "Defining cost structure",
+                "Narrowing down the customer segment accurately",
+                "Establishing the marketing plan"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 147,
+            "category": "vs17",
+            "question": "According to Porter's 'What is Strategy?' article, what is the fundamental difference between operational effectiveness and strategy?",
+            "options": [
+                "Operational effectiveness is more important than strategy",
+                "Strategy involves choosing different activities, while operational effectiveness means performing similar activities better",
+                "Strategy is about short-term gains while operational effectiveness is long-term",
+                "They are essentially the same thing"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 148,
+            "category": "vs17",
+            "question": "In Porter's 'What is Strategy?', what is identified as the most dangerous response to slowing growth?",
+            "options": [
+                "Cutting costs",
+                "Adding new features without considering strategic fit",
+                "Maintaining current strategy",
+                "Expanding into new markets"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 149,
+            "category": "vs17",
+            "question": "According to Porter's Five Forces framework as discussed in the articles, what makes supplier power particularly threatening to a company's strategic position?",
+            "options": [
+                "When suppliers offer low prices",
+                "When suppliers have multiple competitors",
+                "When suppliers have bargaining power to raise prices of materials with few alternatives",
+                "When suppliers are small companies"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 150,
+            "category": "vs17",
+            "question": "In Porter's framework, what is the primary purpose of a SWOT analysis when developing strategy?",
+            "options": [
+                "To focus only on external threats",
+                "To identify strategic advantages and vulnerabilities across all dimensions",
+                "To maximize profits only",
+                "To analyze competitors only"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 151,
+            "category": "vs16",
+            "question": "According to the article '7 Epic Product-Market Fit Failure Stories', what percentage of startups successfully achieve product-market fit even after receiving funding?",
+            "options": [
+                "10%",
+                "3%",
+                "25%",
+                "15%"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 152,
+            "category": "vs16",
+            "question": "In '7 Epic Product-Market Fit Failure Stories', what was identified as Quibi's fundamental mistake that led to their failure despite $2 billion in funding?",
+            "options": [
+                "Poor video quality",
+                "Lack of content",
+                "Failure to understand what customers actually wanted from a video platform",
+                "High subscription costs"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 153,
+            "category": "vs16",
+            "question": "According to '7 Epic Product-Market Fit Failure Stories', what critical mistake did SchoolGennie make in their product development process?",
+            "options": [
+                "Poor marketing strategy",
+                "Inadequate funding",
+                "Delayed MVP release and feedback gathering",
+                "Wrong pricing strategy"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 154,
+            "category": "vs16",
+            "question": "In the case of Dinnr discussed in '7 Epic Product-Market Fit Failure Stories', what was the primary reason for failure?",
+            "options": [
+                "High operational costs",
+                "Poor delivery system",
+                "Lack of validated market demand",
+                "Competition from restaurants"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 155,
+            "category": "vs16",
+            "question": "Based on '7 Epic Product-Market Fit Failure Stories', what was EventVue's critical oversight in their market research?",
+            "options": [
+                "Poor product quality",
+                "Lack of understanding about customers' willingness to pay",
+                "Inadequate marketing",
+                "Technical difficulties"
+            ],
+            "correct": 1
         }
    
     ],
     "categories": [
+        {
+            "id": "vs16",
+            "name": "VS16"
+        },
+        {
+            "id": "vs17",
+            "name": "VS17"
+        },
+        {
+            "id": "vs18",
+            "name": "VS18"
+        },
+        {
+            "id": "vs20",
+            "name": "VS20"
+        },
+        {
+            "id": "vs21",
+            "name": "VS21"
+        },
+        {
+            "id": "vs22",
+            "name": "VS22"
+        },
         {
             "id": "post-midterm-applicative",
             "name": "Post Midterm Applicative Questions"
