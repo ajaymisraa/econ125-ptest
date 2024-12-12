@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Slider } from "@/components/ui/slider";
 import { Brain, BookOpen, Target, ArrowRight, Loader2, CheckCircle } from "lucide-react";
 import { QuizView } from '@/components/QuizView';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function Home() {
   const [questionCount, setQuestionCount] = useState([25]);
@@ -113,6 +114,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="w-full max-w-2xl space-y-6">
+        <Analytics />
         {/* Mode Selection */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card 
@@ -256,8 +258,9 @@ export default function Home() {
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-600 underline transition-colors"
         >
-          group final Google Doc
+          group final Google Doc.  
         </a>
+         // Wrote this code in like 45 minutes but the questions are solid quality. I'll update it more Thurs AM the day of exam. I plan on adding specifically post-midterm content section.
       </p>
       </div>
     </div>
