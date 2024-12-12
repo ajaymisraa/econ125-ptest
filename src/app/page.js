@@ -223,7 +223,7 @@ export default function Home() {
               <Slider
                 value={questionCount}
                 onValueChange={setQuestionCount}
-                max={Math.min(75, maxQuestions)}
+                max={maxQuestions}
                 min={1}
                 step={1}
                 className="w-full"
