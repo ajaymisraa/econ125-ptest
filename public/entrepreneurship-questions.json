@@ -1859,10 +1859,158 @@
                 "Technical difficulties"
             ],
             "correct": 1
+        },
+        {
+            "id": 156,
+            "category": "kundro",
+            "question": "According to the Kundro Talk, what percentage is considered the 'tipping point' for creating large-scale social change according to University of Pennsylvania research?",
+            "options": [
+                "50%",
+                "25%",
+                "70%",
+                "35%"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 157,
+            "category": "kundro",
+            "question": "In the Kundro Talk, what was discussed as a common misconception about charitable overhead costs?",
+            "options": [
+                "Overhead should always be minimized",
+                "Higher overhead means better outcomes",
+                "Overhead can be necessary for scaling impact and attracting talent",
+                "Overhead only matters for large organizations"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 158,
+            "category": "kundro",
+            "question": "According to the Kundro Talk, what was the cost to taxpayers for each participant in the 'Scared Straight' program?",
+            "options": [
+                "$5,000",
+                "$10,000",
+                "$15,000",
+                "$20,000"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 159,
+            "category": "kundro",
+            "question": "In the Kundro Talk's example of guide dogs versus surgery for the visually impaired, what was the approximate cost difference between the two approaches?",
+            "options": [
+                "$50,000 vs $100",
+                "$25,000 vs $500",
+                "$10,000 vs $1,000",
+                "$5,000 vs $250"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 160,
+            "category": "kundro",
+            "question": "According to the Kundro Talk, what was the key success metric of the German solar initiative between 1992 and 2009?",
+            "options": [
+                "Growth from 2,000 to 600,000 solar homes",
+                "Reduction in energy costs by 50%",
+                "Achievement of carbon neutrality",
+                "Installation of 1 million solar panels"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 161,
+            "category": "kundro",
+            "question": "In the Kundro Talk's discussion of social impact, what was presented as more effective than trying to be a 'superhero'?",
+            "options": [
+                "Individual charitable giving",
+                "Direct volunteer work",
+                "Systematic, scalable solutions",
+                "Short-term interventions"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 162,
+            "category": "kundro",
+            "question": "What percentage of social programs, according to the Kundro Talk, turn out to produce small or no effects when rigorously evaluated?",
+            "options": [
+                "25-30%",
+                "40-50%",
+                "70-85%",
+                "90-95%"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 163,
+            "category": "kundro",
+            "question": "What example from TOMS shoes was used in the Kundro Talk to illustrate problematic social impact approaches?",
+            "options": [
+                "Their pricing strategy",
+                "Their marketing campaign asking people to post bare feet photos",
+                "Their distribution model",
+                "Their manufacturing process"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 164,
+            "category": "kundro",
+            "question": "According to the Kundro Talk, what was the pass rate for guide dogs in training programs?",
+            "options": [
+                "20%",
+                "40%",
+                "60%",
+                "80%"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 165,
+            "category": "kundro",
+            "question": "What major change did TOMS make to their social impact model, as discussed in the Kundro Talk?",
+            "options": [
+                "Stopped all charitable giving",
+                "Switched to giving three pairs for every purchase",
+                "Moved from one-for-one model to giving a third of profits to local organizations",
+                "Focused only on domestic charity"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 166,
+            "category": "kundro",
+            "question": "In the Kundro Talk's discussion of measuring social impact, what was identified as a key problem with intuition-based approaches?",
+            "options": [
+                "They're too expensive to implement",
+                "They often lead to unintended negative consequences",
+                "They take too long to show results",
+                "They require too much oversight"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 167,
+            "category": "kundro",
+            "question": "According to the Kundro Talk, what key lesson can be learned from the drinking and driving example of social change?",
+            "options": [
+                "Change always takes centuries",
+                "Laws are the only way to create change",
+                "Significant social change can happen within decades",
+                "Individual actions don't matter"
+            ],
+            "correct": 2
         }
    
     ],
     "categories": [
+        {
+            "id": "kundro",
+            "name": "that penn/wharton guy from the bschool talk"
+        },
         {
             "id": "vs16",
             "name": "VS16"
