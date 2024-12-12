@@ -77,30 +77,35 @@ const AllQuestionsView = ({ questions, categories, onExit }) => {
                   <div className="space-y-6 py-4">
                     {category.questions.map((question, idx) => (
                       <div key={idx} className="bg-white rounded-lg p-6 shadow-sm">
-                        <div className="font-medium text-lg mb-4">{question.question}</div>
+                        <div className="font-medium text-lg mb-4">
+                          {`${idx + 1}. ${question.question}`}
+                        </div>
                         <div className="grid grid-cols-1 gap-3">
-                          {question.options.map((option, optIdx) => (
-                            <div
-                              key={optIdx}
-                              className={`p-4 rounded-lg flex items-center justify-between ${
-                                option === question.correct_answer
-                                  ? 'bg-green-50 border-2 border-green-500'
-                                  : 'bg-gray-50 border border-gray-200'
-                              }`}
-                            >
-                              <span className={option === question.correct_answer ? 'text-green-900 font-medium' : ''}>
-                                {option}
-                              </span>
-                              {option === question.correct_answer && (
-                                <div className="flex items-center gap-2">
-                                  <span className="px-2 py-1 rounded text-xs font-medium bg-green-100 text-green-800">
-                                    Correct Answer
-                                  </span>
-                                  <CheckCircle className="w-4 h-4 text-green-600" />
-                                </div>
-                              )}
-                            </div>
-                          ))}
+                          {question.options.map((option, optIdx) => {
+                            const isCorrect = Number(question.correct) === optIdx;
+                            return (
+                              <div
+                                key={optIdx}
+                                className={`p-4 rounded-lg flex items-center justify-between ${
+                                  isCorrect
+                                    ? 'bg-green-50 border-2 border-green-500'
+                                    : 'bg-gray-50 border border-gray-200'
+                                }`}
+                              >
+                                <span className={isCorrect ? 'font-bold text-green-900' : ''}>
+                                  {option}
+                                </span>
+                                {isCorrect && (
+                                  <div className="flex items-center gap-2">
+                                    <span className="px-2 py-1 rounded text-xs font-bold bg-green-100 text-green-800">
+                                      Correct Answer
+                                    </span>
+                                    <CheckCircle className="w-4 h-4 text-green-600" />
+                                  </div>
+                                )}
+                              </div>
+                            );
+                          })}
                         </div>
                       </div>
                     ))}
