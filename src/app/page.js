@@ -260,7 +260,7 @@ export default function Home() {
         >
           group final Google Doc.  
         </a>
-         // for specifically post midterm stuff, click categories then post exam applicable. or just do everything. 
+         // for specifically post midterm stuff, click categories then post exam applicable. or just do everything. made by ajay misra of group 8
       </p>
       </div>
     </div>
