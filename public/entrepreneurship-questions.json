@@ -1,0 +1,926 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "category": "fundamentals",
+            "question": "What is entrepreneurial knowledge defined as?",
+            "options": [
+                "The ability to start a business",
+                "The courage to act on opportunities under varying conditions of unknownness",
+                "The process of creating new products",
+                "The skill of managing employees"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 2,
+            "category": "models",
+            "question": "In Drucker's model, which category is considered the most risky?",
+            "options": [
+                "The unexpected",
+                "Process needs",
+                "New knowledge",
+                "Industry market structure"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 3,
+            "category": "design",
+            "question": "What is psychological safety in the context of team development?",
+            "options": [
+                "Following safety protocols",
+                "Having security measures in place",
+                "Feeling safe to take interpersonal risks without fear of repercussions",
+                "Creating a physically safe workspace"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 4,
+            "category": "strategy",
+            "question": "Why is product-market fit critical for startups?",
+            "options": [
+                "It helps secure funding",
+                "35% of startups fail because they don't have it",
+                "It reduces operational costs",
+                "It guarantees profitability"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 5,
+            "category": "design",
+            "question": "What is the purpose of an empathy map?",
+            "options": [
+                "To create marketing strategies",
+                "To document technical requirements",
+                "To understand and align the team on user needs and behaviors",
+                "To track project timelines"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 6,
+            "category": "finance",
+            "question": "What is bootstrapping in the context of startups?",
+            "options": [
+                "Starting with venture capital funding",
+                "Starting a company with little capital, relying on money other than outside investment",
+                "Using bank loans for initial funding",
+                "Depending on investor funding from day one"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 7,
+            "category": "strategy",
+            "question": "What is the main weakness in SWOT analysis according to the course material?",
+            "options": [
+                "The ability to be honest",
+                "The complexity of the analysis",
+                "The time it takes to complete",
+                "The cost of implementation"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 8,
+            "category": "design",
+            "question": "What is the rule of thumb for testing prototypes?",
+            "options": [
+                "Test as quickly as possible",
+                "Always prototype as if you know you're right, but test as if you know you're wrong",
+                "Focus on positive feedback only",
+                "Test with a small group only"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 9,
+            "category": "finance",
+            "question": "What is burn rate in startup finance?",
+            "options": [
+                "Rate of customer acquisition",
+                "Rate at which a company spends its cash reserves",
+                "Rate of revenue growth",
+                "Rate of market expansion"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 10,
+            "category": "models",
+            "question": "What are the stages in Tuckman's Model of team development?",
+            "options": [
+                "Plan, Do, Check, Act",
+                "Forming, Storming, Norming, Performing",
+                "Define, Measure, Analyze, Improve",
+                "Start, Develop, Test, Launch"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 11,
+            "category": "strategy",
+            "question": "Which of Porter's Five Forces focuses on the power of customers to influence prices and terms?",
+            "options": [
+                "Threat of new entry",
+                "Bargaining power of buyers",
+                "Rivalry among competitors",
+                "Threat of substitutes"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 12,
+            "category": "design",
+            "question": "What should you avoid when testing a prototype?",
+            "options": [
+                "Getting user feedback",
+                "Taking notes",
+                "Trying to sell your product",
+                "Asking open-ended questions"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 13,
+            "category": "fundamentals",
+            "question": "What is the transition curve's first stage?",
+            "options": [
+                "Informed pessimism",
+                "Crisis of meaning",
+                "Uninformed optimism",
+                "Informed optimism"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 14,
+            "category": "finance",
+            "question": "What does MVP stand for in startup development?",
+            "options": [
+                "Most Valuable Product",
+                "Minimum Viable Product",
+                "Maximum Value Proposition",
+                "Market Validated Product"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 15,
+            "category": "strategy",
+            "question": "What is a conversation partner in the startup context?",
+            "options": [
+                "A potential investor",
+                "An employee",
+                "Someone who advocates for you but isn't financially tied to the project",
+                "A business competitor"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 16,
+            "category": "design",
+            "question": "What is the purpose of the 'How Might We' (HMW) statements in design thinking?",
+            "options": [
+                "To provide immediate solutions",
+                "To lay the groundwork for the problem without preconceived solutions",
+                "To evaluate finished products",
+                "To assign team responsibilities"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 17,
+            "category": "strategy",
+            "question": "What is IKEA's key strategic position according to the course materials?",
+            "options": [
+                "Premium furniture at high prices",
+                "Custom-made furniture only",
+                "Low cost, self-assembly furniture with recreational shopping experience",
+                "Online-only furniture sales"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 18,
+            "category": "finance",
+            "question": "What distinguishes variable costs from fixed costs?",
+            "options": [
+                "Variable costs change with production volume while fixed costs remain constant",
+                "Variable costs are always higher than fixed costs",
+                "Fixed costs change monthly while variable costs are constant",
+                "Fixed costs only apply to large businesses"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 19,
+            "category": "models",
+            "question": "What is the primary purpose of the lean canvas?",
+            "options": [
+                "To create detailed financial projections",
+                "To verify product ideas before significant investment",
+                "To design marketing campaigns",
+                "To manage employee schedules"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 20,
+            "category": "fundamentals",
+            "question": "According to the course, what is one of the main roadblocks to creativity?",
+            "options": [
+                "Too much education",
+                "Doing convergent and divergent thinking at the same time",
+                "Working in teams",
+                "Having too many resources"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 21,
+            "category": "design",
+            "question": "In the Pediatric MRI example, what was the key insight that led to the solution?",
+            "options": [
+                "The need for faster scanning technology",
+                "The perspective of children and their anxiety about the procedure",
+                "The cost of MRI machines",
+                "The training needs of technicians"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 22,
+            "category": "strategy",
+            "question": "What is the endowment effect?",
+            "options": [
+                "The tendency to value donated items more",
+                "The tendency to value items you own more highly than if you didn't own them",
+                "The impact of charitable giving on business",
+                "The effect of market conditions on pricing"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 23,
+            "category": "finance",
+            "question": "What is runway in startup terms?",
+            "options": [
+                "The path to profitability",
+                "The time available before cash runs out",
+                "The marketing strategy timeline",
+                "The product development cycle"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 24,
+            "category": "fundamentals",
+            "question": "What are social entrepreneurs primarily focused on?",
+            "options": [
+                "Maximizing profits",
+                "Creating businesses with social or environmental impact",
+                "Developing new technologies",
+                "Expanding existing businesses"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 25,
+            "category": "design",
+            "question": "What should you do when receiving feedback?",
+            "options": [
+                "Defend your decisions",
+                "Only accept positive feedback",
+                "Be calm and an active listener",
+                "Immediately implement all suggestions"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 26,
+            "category": "strategy",
+            "question": "What is the sunk cost fallacy?",
+            "options": [
+                "The tendency to continue investing in something because of past investments",
+                "The cost of starting a business",
+                "The process of calculating depreciation",
+                "The effect of market competition on prices"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 27,
+            "category": "models",
+            "question": "What aspect of the lean canvas focuses on communicating with customers?",
+            "options": [
+                "Cost Structure",
+                "Channels",
+                "Key Metrics",
+                "Revenue Streams"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 28,
+            "category": "finance",
+            "question": "What is non-dilutive funding?",
+            "options": [
+                "Funding that requires giving up equity",
+                "Funding that allows you to retain full ownership",
+                "Bank loans only",
+                "Venture capital investment"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 29,
+            "category": "design",
+            "question": "What is the purpose of rapid prototyping?",
+            "options": [
+                "To create perfect products quickly",
+                "To fail quickly and cheaply while learning",
+                "To impress investors",
+                "To skip the testing phase"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 30,
+            "category": "strategy",
+            "question": "What defines a direct competitor versus an indirect competitor?",
+            "options": [
+                "Direct competitors are larger companies",
+                "Direct competitors offer similar products while indirect competitors solve the same problem differently",
+                "Indirect competitors are always more successful",
+                "Direct competitors are always in the same location"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 31,
+            "category": "fundamentals",
+            "question": "What is the general trend of creativity according to the course materials?",
+            "options": [
+                "It increases with age",
+                "It decreases with age",
+                "It remains constant throughout life",
+                "It peaks in middle age"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 32,
+            "category": "finance",
+            "question": "What does Net Promoter Score (NPS) measure?",
+            "options": [
+                "Revenue growth",
+                "Customer willingness to recommend the product",
+                "Employee satisfaction",
+                "Market share"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 33,
+            "category": "design",
+            "question": "What should be the focus when creating prototype tests?",
+            "options": [
+                "Getting as many users as possible",
+                "Testing with the cheapest method",
+                "Having a clear purpose for what you're testing",
+                "Making the prototype look perfect"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 34,
+            "category": "strategy",
+            "question": "What is operational effectiveness according to the Forbes article?",
+            "options": [
+                "A sufficient strategy for sustainable profit",
+                "Necessary for performance but not sufficient for sustainable profit",
+                "The same as strategic positioning",
+                "A replacement for strategy"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 35,
+            "category": "models",
+            "question": "What is the primary function of a team charter?",
+            "options": [
+                "To assign specific roles",
+                "To get alignment on goals and guidelines for team work",
+                "To establish a hierarchy",
+                "To set deadlines"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 36,
+            "category": "finance",
+            "question": "What is churn rate?",
+            "options": [
+                "Rate of new customer acquisition",
+                "Rate of employee turnover",
+                "Number of customers lost in a year divided by customers at start of year",
+                "Rate of product development"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 37,
+            "category": "design",
+            "question": "What is convergent thinking in the design process?",
+            "options": [
+                "Generating many new ideas",
+                "Judging and refining existing ideas",
+                "Avoiding criticism",
+                "Brainstorming new solutions"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 38,
+            "category": "strategy",
+            "question": "What is the purpose of a SWOT analysis?",
+            "options": [
+                "To focus only on company strengths",
+                "To analyze internal assets and external factors affecting the business",
+                "To determine product pricing",
+                "To manage employee performance"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 39,
+            "category": "fundamentals",
+            "question": "What is confirmation bias?",
+            "options": [
+                "The tendency to seek approval from others",
+                "The tendency to interpret new evidence as confirmation of existing beliefs",
+                "The bias towards positive feedback",
+                "The preference for confirmed facts over theories"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 40,
+            "category": "design",
+            "question": "What is the key difference between a prototype and an MVP?",
+            "options": [
+                "Prototypes are more expensive",
+                "MVPs are used earlier in development",
+                "Prototypes help prove concepts while MVPs help refine them",
+                "MVPs are only used in software development"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 41,
+            "category": "models",
+            "question": "What are the 9 key components of the lean canvas?",
+            "options": [
+                "Problem, Solution, UVP, Metrics, Channels, Segments, Costs, Revenue, Competition",
+                "Problem, Solution, UVP, Metrics, Channels, Segments, Costs, Revenue, Unfair Advantage",
+                "Market, Product, UVP, Metrics, Channels, Segments, Costs, Revenue, Strategy",
+                "Problem, Product, UVP, Goals, Marketing, Segments, Costs, Revenue, Competition"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 42,
+            "category": "finance",
+            "question": "Which of the following is a key aspect of top-down financial modeling?",
+            "options": [
+                "Starting with individual customer acquisition costs",
+                "Beginning with total market size and determining market share",
+                "Focusing on operational costs first",
+                "Calculating employee salaries initially"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 43,
+            "category": "strategy",
+            "question": "What is IKEA's primary strategic advantage according to the course materials?",
+            "options": [
+                "High-end furniture design",
+                "Online-only sales model",
+                "Low cost and recreational shopping experience",
+                "Custom furniture manufacturing"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 44,
+            "category": "design",
+            "question": "When conducting empathy interviews, why is it important to avoid yes/no questions?",
+            "options": [
+                "To make the interview longer",
+                "To get more detailed and insightful responses",
+                "To confuse the interviewee",
+                "To satisfy academic requirements"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 45,
+            "category": "finance",
+            "question": "What does NPS stand for and how is it calculated?",
+            "options": [
+                "Net Product Sales = Total Sales - Returns",
+                "Net Promoter Score = % Promoters - % Detractors",
+                "Net Profit Share = Revenue - Costs",
+                "New Product Success = Market Share Growth"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 46,
+            "category": "fundamentals",
+            "question": "What is the primary purpose of a conversation partner in entrepreneurship?",
+            "options": [
+                "To provide funding",
+                "To serve as a business partner",
+                "To advocate and ask hard questions without financial ties",
+                "To manage daily operations"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 47,
+            "category": "strategy",
+            "question": "Which of Porter's Five Forces focuses on the impact of similar products that serve the same need?",
+            "options": [
+                "Threat of new entry",
+                "Bargaining power of buyers",
+                "Threat of substitute products",
+                "Rivalry among competitors"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 48,
+            "category": "design",
+            "question": "What distinguishes convergent thinking from divergent thinking?",
+            "options": [
+                "Convergent thinking generates ideas while divergent thinking evaluates them",
+                "Convergent thinking judges and refines ideas while divergent thinking generates them",
+                "They are the same thing",
+                "Convergent thinking only applies to business planning"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 49,
+            "category": "finance",
+            "question": "What is the main difference between fixed and variable costs?",
+            "options": [
+                "Fixed costs change monthly, variable costs stay the same",
+                "Fixed costs remain constant while variable costs change with production volume",
+                "Fixed costs only apply to large businesses",
+                "Variable costs are always higher than fixed costs"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 50,
+            "category": "strategy",
+            "question": "What is the main purpose of a competitive positioning matrix?",
+            "options": [
+                "To track employee performance",
+                "To compare product features against competitors",
+                "To set pricing strategies",
+                "To manage inventory"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 51,
+            "category": "fundamentals",
+            "question": "In the transition curve, what characterizes the 'crash and burn' stage?",
+            "options": [
+                "Initial excitement about the venture",
+                "Peak performance and success",
+                "The lowest point where some may file for bankruptcy",
+                "Strategic planning phase"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 52,
+            "category": "design",
+            "question": "What is the primary purpose of an empathy map's 'Pain' section?",
+            "options": [
+                "To document physical injuries",
+                "To list product defects",
+                "To identify user fears, frustrations, and anxieties",
+                "To record technical problems"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 53,
+            "category": "finance",
+            "question": "What is the sniff test in financial modeling?",
+            "options": [
+                "A way to validate market research",
+                "A check to see if assumptions make logical sense",
+                "A method of calculating profits",
+                "A technique for pricing products"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 54,
+            "category": "strategy",
+            "question": "Why is operational effectiveness not enough for sustainable competitive advantage?",
+            "options": [
+                "It's too expensive",
+                "It can be easily copied by competitors",
+                "It's too time-consuming",
+                "It requires too many employees"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 55,
+            "category": "design",
+            "question": "What is the purpose of the 'How Might We' format in design thinking?",
+            "options": [
+                "To provide immediate solutions",
+                "To frame problems as opportunities without suggesting solutions",
+                "To assign blame for problems",
+                "To set project deadlines"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 56,
+            "category": "fundamentals",
+            "question": "What is the key characteristic of a scalable entrepreneur?",
+            "options": [
+                "Focus on social issues",
+                "Finding and filling market gaps with potential for rapid growth",
+                "Managing small local businesses",
+                "Creating personal wealth"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 57,
+            "category": "finance",
+            "question": "What is the purpose of calculating burn rate?",
+            "options": [
+                "To measure marketing efficiency",
+                "To determine how quickly a company spends its cash reserves",
+                "To track employee productivity",
+                "To calculate market share"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 58,
+            "category": "strategy",
+            "question": "What distinguishes non-dilutive from dilutive funding?",
+            "options": [
+                "Non-dilutive funding is always larger",
+                "Dilutive funding comes from banks only",
+                "Non-dilutive funding doesn't require giving up equity",
+                "Dilutive funding is risk-free"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 59,
+            "category": "design",
+            "question": "What is the main purpose of prototyping?",
+            "options": [
+                "To create perfect products",
+                "To test and validate assumptions quickly and cheaply",
+                "To impress investors",
+                "To train employees"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 60,
+            "category": "finance",
+            "question": "What is the key benefit of bootstrapping?",
+            "options": [
+                "Immediate high profits",
+                "Maintaining control and forcing resourcefulness",
+                "Guaranteed success",
+                "Rapid market expansion"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 61,
+            "category": "strategy",
+            "question": "Why is giving feedback important in team development?",
+            "options": [
+                "To establish hierarchy",
+                "To improve performance and build trust",
+                "To create competition",
+                "To document performance only"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 62,
+            "category": "design",
+            "question": "What was the key insight from the pediatric MRI example?",
+            "options": [
+                "MRIs need to be faster",
+                "Children's perspective needed to be considered in design",
+                "Hospitals need more MRI machines",
+                "Medical technology is too expensive"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 63,
+            "category": "finance",
+            "question": "What is the primary purpose of unit economics?",
+            "options": [
+                "To calculate total market size",
+                "To determine if a business can be profitable on a per-unit basis",
+                "To set industry standards",
+                "To manage employee salaries"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 64,
+            "category": "strategy",
+            "question": "What is a key characteristic of strategic positioning?",
+            "options": [
+                "It must remain unchanged over time",
+                "It requires constant operational improvements only",
+                "It involves choosing different activities to deliver unique value",
+                "It focuses on copying competitors"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 65,
+            "category": "fundamentals",
+            "question": "What characterizes informed optimism in the transition curve?",
+            "options": [
+                "Blind enthusiasm",
+                "Complete pessimism",
+                "Realistic optimism based on knowledge and experience",
+                "Giving up on the venture"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 66,
+            "category": "design",
+            "question": "Why should prototypes be low-fidelity in early stages?",
+            "options": [
+                "To save money only",
+                "To allow for quick iteration and minimal emotional attachment",
+                "Because they look better",
+                "To impress investors"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 67,
+            "category": "strategy",
+            "question": "What is the primary purpose of a team charter?",
+            "options": [
+                "To assign blame for failures",
+                "To establish alignment on goals and working guidelines",
+                "To determine salaries",
+                "To create competition"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 68,
+            "category": "finance",
+            "question": "What is the significance of customer acquisition cost (CAC)?",
+            "options": [
+                "It's irrelevant to startup success",
+                "It determines product pricing only",
+                "It's crucial for understanding business viability and growth potential",
+                "It only matters for large companies"
+            ],
+            "correct": 2
+        },
+        {
+            "id": 69,
+            "category": "design",
+            "question": "What is the primary purpose of the 'define' stage in design thinking?",
+            "options": [
+                "To start building solutions",
+                "To analyze observations and gain insights about the core problem",
+                "To test prototypes",
+                "To hire team members"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 70,
+            "category": "fundamentals",
+            "question": "What is entrepreneurial intelligence according to the course?",
+            "options": [
+                "Having a high IQ",
+                "The courage to act on opportunities under varying conditions of unknownness",
+                "Knowledge of business laws",
+                "Technical expertise"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 71,
+            "category": "strategy",
+            "question": "What makes a good 'unfair advantage' in the lean canvas?",
+            "options": [
+                "Large marketing budget",
+                "Something competitors cannot easily copy or buy",
+                "Low prices",
+                "Many employees"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 72,
+            "category": "finance",
+            "question": "What is the key difference between top-down and bottom-up financial modeling?",
+            "options": [
+                "Top-down starts with market size while bottom-up starts with specific customer data",
+                "Top-down is always more accurate",
+                "Bottom-up is only for large companies",
+                "They are the same thing"
+            ],
+            "correct": 0
+        },
+        {
+            "id": 73,
+            "category": "design",
+            "question": "What is the primary benefit of testing with extreme users?",
+            "options": [
+                "They are easier to find",
+                "They provide more vocal and insightful feedback",
+                "They are always right",
+                "They cost less to interview"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 74,
+            "category": "strategy",
+            "question": "What is the main purpose of Porter's Five Forces analysis?",
+            "options": [
+                "To set prices",
+                "To understand competitive forces shaping an industry",
+                "To hire employees",
+                "To design products"
+            ],
+            "correct": 1
+        },
+        {
+            "id": 75,
+            "category": "fundamentals",
+            "question": "What defines a social entrepreneur?",
+            "options": [
+                "Focus on maximum profit",
+                "Creating businesses addressing social or environmental issues",
+                "Only working with non-profits",
+                "Avoiding all business risks"
+            ],
+            "correct": 1
+        }
+    ],
+    "categories": [
+        {
+            "id": "fundamentals",
+            "name": "Entrepreneurship Fundamentals"
+        },
+        {
+            "id": "models",
+            "name": "Business Models & Frameworks"
+        },
+        {
+            "id": "design",
+            "name": "Design Thinking"
+        },
+        {
+            "id": "strategy",
+            "name": "Business Strategy"
+        },
+        {
+            "id": "finance",
+            "name": "Startup Finance"
+        }
+    ]
+}
